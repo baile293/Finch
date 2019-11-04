@@ -5,7 +5,6 @@ using System.IO;
 
 namespace Project_FinchControl
 {
-
     // **************************************************
     //
     // Title: Finch Control
@@ -575,7 +574,38 @@ namespace Project_FinchControl
             //move finch
             //
             finchRobot.setMotors(255, 255);
+            finchRobot.wait(1000);
+            finchRobot.setMotors(0, 0);
+            finchRobot.setMotors(200, -200);
             finchRobot.wait(2000);
+            finchRobot.setMotors(150, 200);
+            finchRobot.wait(1500);
+            finchRobot.setMotors(200, 150);
+            finchRobot.wait(1500);
+            finchRobot.setMotors(-255, 255);
+            finchRobot.wait(3000);
+            finchRobot.setMotors(100, 0);
+            finchRobot.wait(2000);
+            finchRobot.setMotors(0, 100);
+            finchRobot.wait(2000);
+            finchRobot.setMotors(255, 255);
+            finchRobot.wait(2000);
+            finchRobot.setMotors(255, 255);
+            finchRobot.wait(2000);
+            finchRobot.setMotors(0, 0);
+            finchRobot.setMotors(255, 255);
+            finchRobot.wait(2000);
+            finchRobot.setMotors(0, 0);
+            finchRobot.setMotors(255, 255);
+            finchRobot.wait(2000);
+            finchRobot.setMotors(0, 0);
+            finchRobot.setMotors(255, 255);
+            finchRobot.wait(2000);
+            finchRobot.setMotors(0, 0);
+            finchRobot.setMotors(255, 255);
+            finchRobot.wait(2000);
+            finchRobot.setMotors(0, 0);
+
             finchRobot.setMotors(0, 0);
             //
             //red LED
