@@ -56,7 +56,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\data.txt" />
+    <Content Include="data\data.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="data\Theme.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

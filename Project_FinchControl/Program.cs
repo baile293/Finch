@@ -51,7 +51,6 @@ namespace Project_FinchControl
             //
             foregroundColorString = File.ReadAllText(dataPath);
             Enum.TryParse(foregroundColorString, out foregroundColor);
-
             Console.ForegroundColor = foregroundColor;
         }
 
